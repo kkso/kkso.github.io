@@ -19,7 +19,7 @@ params:
         imageHeight: 250 # custom size        
         buttons:
           - name: HackTheBox Writeups
-            url: "/HTB-Writups/"
+            url: "/Writups/"
     socialIcons:
     - name: email
       url: "mailto:kkwaste@mailfence.com"
