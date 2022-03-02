@@ -8,17 +8,18 @@ params:
     disableThemeToggle: true
     ShowReadingTime: true 
 
+
     profileMode:
         enabled: true
         title: "<Title>" # optional default will be site title
-        subtitle: "Currently Working on Hackthebox writeups"
+        subtitle: "Currently working on Hackthebox writeups"
         imageUrl: "/img/image1.png" # optional
         #imageTitle: "<title of image as alt>" # optional
         imageWidth: 250 # custom size
         imageHeight: 250 # custom size        
         buttons:
-          - name: Archive
-            url: "/archive"
+          - name: HackTheBox Writeups
+            url: "/HTB-Writups/"
     socialIcons:
     - name: email
       url: "mailto:kkwaste@mailfence.com"
@@ -26,3 +27,9 @@ params:
       url: "https://app.hackthebox.eu/profile/632706"
     - name: github
       url: "https://github.com/kkso"
+menu:
+  main:
+  - identifier: Writeups
+    name: HackTheBox Writeups
+    url: "/Writeups/"
+    weight: 10
