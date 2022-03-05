@@ -13,13 +13,13 @@ params:
         enabled: true
         title: "<Title>" # optional default will be site title
         subtitle: "Currently working on Hackthebox writeups"
-        imageUrl: "/img/image1.png" # optional
+        imageUrl: "/img/image3.png" # optional
         #imageTitle: "<title of image as alt>" # optional
-        imageWidth: 250 # custom size
-        imageHeight: 250 # custom size        
+        imageWidth: 256 # custom size
+        imageHeight: 256 # custom size        
         buttons:
           - name: HackTheBox Writeups
-            url: "/Writeups/"
+            url: "/writeups/"
     socialIcons:
     - name: email
       url: "mailto:kkwaste@mailfence.com"
@@ -31,5 +31,5 @@ menu:
   main:
   - identifier: Writeups
     name: HackTheBox Writeups
-    url: "/Writeups/"
+    url: "/writeups/"
     weight: 10
