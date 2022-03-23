@@ -20,6 +20,8 @@ params:
         buttons:
           - name: HackTheBox Writeups
             url: "/writeups/"
+          - name: CVE Breakdowns
+            url: "/cvebreakdowns/"
     socialIcons:
     - name: email
       url: "mailto:kkwaste@mailfence.com"
@@ -32,4 +34,8 @@ menu:
   - identifier: Writeups
     name: HackTheBox Writeups
     url: "/writeups/"
+    weight: 10
+  - identifier: Breakdowns
+    name: CVE Breakdowns
+    url: "/cvebreakdowns/"
     weight: 10
